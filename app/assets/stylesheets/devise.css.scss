@@ -1,0 +1,68 @@
+body {
+	padding:10px;
+}
+ul{
+  padding-bottom:20px;
+}
+
+
+// Used for placing Glyphicons to the left or right side of input
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 17px 12px;
+    pointer-events: none;
+}
+
+
+
+.form-control[type="search"]::-webkit-input-placeholder:first-letter {
+    font-family:"Glyphicons Halflings";
+}
+.form-control[type="search"]:-moz-placeholder:first-letter {
+    font-family:"Glyphicons Halflings";
+}
+.form-control[type="search"]::-moz-placeholder:first-letter {
+    font-family:"Glyphicons Halflings";
+}
+.form-control[type="search"]:-ms-input-placeholder:first-letter {
+    font-family:"Glyphicons Halflings";
+}
+
+
+  .input-lg{
+    padding-top:0px;
+  }
+.panel-body{
+  background-color:#eee;
+}
+.form-control {
+	border-radius:2px !important;
+	border:1px solid #e5e5e5;
+	padding:15px;
+	margin-bottom:15px;
+}
+.btn {
+	border-radius:2px !important;
+	padding:15px;
+	font-size:16px;
+	font-weight:600;
+}
