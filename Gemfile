@@ -54,3 +54,5 @@ gem 'cancancan', '~> 1.10'
 gem 'paperclip'
 
 gem 'dotenv-rails', group: :development
+
+gem 'aws-sdk', '< 2.0'
