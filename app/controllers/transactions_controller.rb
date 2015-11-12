@@ -1,5 +1,5 @@
 class TransactionsController < ApplicationController
-  def created
+  def create
     book = Book.find_by!(slug: params[:slug])
     token = params[:stripeToken]
 
@@ -24,5 +24,4 @@ class TransactionsController < ApplicationController
     @sale = Sale.find_by!(guid: params[:guid])
     @book = @sale.book
   end
-
 end
